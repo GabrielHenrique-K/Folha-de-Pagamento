@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>FOLHA DE PAGAMENTO</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a><strong>Cálculo de Folha De Pagamento</strong></a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="contato">
+
+        </section>
+        <!-- CARD -->
+        <div id="card">
+    
+            <!-- CONTENT -->
+            <div class="content">
+                <h3>CALCULADORA</h3>
+                <p>Sálario: <br>
+                    <input type="text" id="salario">
+                    
+                <p>Dependentes: <br>
+                    <input type="text" id="depen"><br>
+                <label for="checkbox"></label><br>
+                <input type="checkbox" name="checkbox" id="checkbox">
+                Vale Transporte
+                
+            </div>
+            <button id="button">Calcular</button>
+        </div>
+    
+        <div id="card1">
+            <div id="container">
+                <div class="content1">
+                    <h3>RESULTADO</h3>
+                        <table>
+                        <thead>
+                            <tr>
+                                <th>Salário Bruto</th>
+                                <td>                   
+                                    R$ <span id="salarioT"><span>
+                                </td>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <th>INSS</th>
+                                <td>
+                                R$ <span id="colaboracao"><span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>Salário Base</th>
+                                <td>
+                                R$ <span id="base"><span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>IRRF</th>
+                                <td>
+                                R$ <span id="imposto"><span> 
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>Vale Transporte</th>
+                                <td>
+                                R$ <span id="transporte"><span>   
+                                </td>
+                            </tr>
+                            </tbody>
+                            <tfoot>
+                            <tr>
+                                    <th>Salário Liquido</th>
+                                    <td >
+                                    R$ <span id="liquido"><span>
+                                    </td>
+                                </tr>
+                            </tfoot>
+                     </table>
+    
+                     <button id="reset1">Limpar</button>
+                </div>
+            </div>
+        </div>
+        <div id="card2"> 
+
+        </div>
+    </main>
+    <footer>
+        <p>Em suspeita de dengue o medicamento não é indicado - Site HTML5</p>
+    </footer>
+</body>
+<script src="./JS/salario.js"></script>
+</html>
